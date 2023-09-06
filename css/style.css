@@ -1,0 +1,53 @@
+body{
+  background-color: #010101;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media(max-width: 991px){
+  .sidebar{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+
+  }
+}
+
+
+@supports(-webkit-touch-callout: none) {
+  .sidebar{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+
+  }
+}
+/* iPad [portrait + landscape] */
+
+/* iPhone [portrait + landscape] */
+
+
+.img{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+
+
+/* .img{
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media(max-width:360px) {
+    img {
+
+        vertical-align: middle;
+        text-align: center;
+    }
+} */
